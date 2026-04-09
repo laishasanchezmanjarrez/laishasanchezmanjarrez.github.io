@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Historia heladería</title>
+        <link rel="stylesheet" href="styles.css" />
+        <style>
+            form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            * {box-sizing: border-box;}
+            input[type=text], select, textarea {
+                width: 60%;
+                padding: 12px;
+                border: 1px solid #aa254a;
+                border-radius: 4px;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+                color: #6C172F;
+            }
+            
+            input[type=submit] {
+                background-color: #aa254a;
+                color: #ffffff;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            
+            input[type=submit]:hover {
+                background-color: #ff3e75;
+            }
+            
+            .container {
+                border-radius: 5px;
+                background-color: #ffffff;
+                padding: 20x;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html" class="link-img"> <img class="margen" src="media/imagenes/haagen-dazs-logo.png" alt="img"></a>
+            <ul class="contenedor-menu">
+                    <li><a href="../productos.html">Productos</a></li>
+                    <li><a href="../contactos.html">Historia</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="contenedor-hist">
+                <h2>Helado como ningún otro</h2>
+                <p>
+                   Häagen-Dazs ™ ha fabricado helados como ningún otro desde 1960. La visión de nuestro fundador, Reuben
+                    Mattus, fue desarrollar el helado más extraordinario que el mundo haya probado, una cucharada de lujo
+                    para escapar de lo cotidiano. Y para llegar allí, solo utilizó ingredientes de la más alta calidad, 
+                    cuidadosamente seleccionados. Como Reuben dijo: Si eres como todos los demás, estás perdido. Así que 
+                    hacemos un helado como ningún otro – lo mejor que se puede hacer.
+                </p>
+                <p>
+                    Desde nuestros inicios, hemos buscado innovar y mantener una identidad elegante y moderna,
+                    inspirada en marcas premium.
+                </p>
+            </div>
+                <section class="video">
+                    <iframe class="centrar-media video-media" src="https://www.youtube.com/embed/0mdenaQRCzo?si=eYzERJs8EoL_HJiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </section>
+            <section >
+                <div class="historia">
+                    <div class="texto">
+                        <h2>Apasionados por el helado</h2>
+                        <p>Reuben Mattus, desde la edad de nueve años, tuvo la misión de crear un helado de textura sedosa,
+                       suave y cremosa con sabores que fueran afines al paladar adulto. Se casó con Rose, un genio de los 
+                       negocios, y juntos lanzaron Häagen-Dazs ™ con tres sabores simples: chocolate, vainilla y café. Hoy
+                       en día tenemos 46 sabores extraordinarios (es mucho lo que hay que probar). Cada paso en el desarrollo 
+                       de Häagen-Dazs ™ ha sido impulsado por una auténtica pasión por la perfección (imagínate, nos tomó
+                       seis años descubrir cómo hacer el mejor helado de fresa).</p>
+                    </div>
+                    <div class="imagenh">
+                        <img class="imagenh imgtem" src="media/imagenes/hist1.webp" alt="imgh">
+                    </div>
+                </div>
+                
+                <div class="historia reverse">
+                    <div class="texto">
+                        <h2>Comprometidos con los más altos estándares de calidad</h2>
+                        <p>Establecemos nuestras propias tendencias y nuestros propios estándares. La devoción de Reuben por 
+                       ofrecer siempre la más alta calidad cambió la forma en que la gente veía los helados. Ahí es donde 
+                       inició Häagen-Dazs ™ y en donde estamos hoy. Esto significa tener siempre los mejores ingredientes
+                       para garantizar un exquisito sabor. Porque todos merecen experimentar una cucharada de placer.</p>
+                    </div>
+                    <div class="imagenhiz">
+                        <img class="imagenh imgtem" src="media/imagenes/hist2.webp" alt="imgh">
+                    </div>
+                </div>
+                <div class="historia">
+                    <div class="texto">
+                        <h2>Una experiencia como ninguna otra</h2>
+                        <p>En 1960, Reuben se dispuso a crear un helado del que pudiera sentirse enormemente orgulloso. Estamos
+                      satisfechos de continuar con este legado hasta el día de hoy. No sólo hacemos helados extraordinarios
+                      sino creamos momentos extraordinarios. Porque creemos que los pequeños lujos tienen el poder de
+                      enriquecer el día a día.</p>
+                    </div>
+                    <div class="imagenh">
+                        <img class="imagenh imgtem" src="media/imagenes/hist3.webp" alt="imgh">
+                    </div>
+                </div>
+            </section>
+            <section>
+                
+            </section>
+            <section class="linea">
+                <h3>Contáctanos</h3>
+                <div class="container">
+                    <form action="/action_page.php">
+                        <label for="fname">Nombre</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        
+                        <label for="correo">Correo</label>
+                        <input type="text" id="Mail" name="Mail" placeholder="Your mail">
+                        
+                        <label for="country">País</label>
+                        <select id="country" name="country">
+                            <option value="mexico">México</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">USA</option>
+                        </select>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </section>
+        </section>
+        
+        <footer class="contenedor-footer">
+            <section>
+                <h3>© 2026 General Mills. All Rights Reserved.</h3>
+            </section>
+            <section>
+                <h4></h4>
+                <a href="https://www.facebook.com/HaagenDazsmx/?locale=es_LA" target="_blank"> <img class="img" src="media/imagenes/faceblan.png" alt="img"></a>
+            </section>
+            <section>
+                <h4></h4>
+                <a href="https://www.instagram.com/haagendazsshops.mx/" target="_blank"><img class="img" src="media/imagenes/instablan.png" alt="img"></a>
+            </section>
+           
+        </footer>
+    </body>
+</html>
